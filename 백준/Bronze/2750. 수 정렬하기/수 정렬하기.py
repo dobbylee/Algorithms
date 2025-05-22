@@ -1,0 +1,1 @@
+for num in sorted(list(int(input()) for _ in range(int(input())))): print(num)
