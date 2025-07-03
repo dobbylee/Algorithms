@@ -1,7 +1,5 @@
 function solution(new_id) {
-    new_id = new_id.toLowerCase().replace(/[^\w-.]/g, "");
-    new_id = new_id.replace(/[.]+/g, ".");
-    new_id = new_id.replace(/^\.|\.$/g, "");
+    new_id = new_id.toLowerCase().replace(/[^\w-.]/g, "").replace(/[.]+/g, ".").replace(/^\.|\.$/g, "");
     if (!new_id) new_id = "a";
     if (new_id.length > 15) {
         new_id = new_id.slice(0, 15);
