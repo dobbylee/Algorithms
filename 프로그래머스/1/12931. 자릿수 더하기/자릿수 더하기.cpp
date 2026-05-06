@@ -2,5 +2,7 @@
 
 using namespace std;
 int solution(int n) {
-    return n > 0 ? n % 10 + solution((n / 10)) : 0;
+    int answer = 0;
+    for (; n > 0; n /= 10) answer += n % 10;
+    return answer;
 }
