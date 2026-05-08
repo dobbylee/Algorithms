@@ -1,10 +1,10 @@
 # [level 1] 하샤드 수 - 12947 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12947) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12947?language=cpp) 
 
 ### 성능 요약
 
-메모리: 9.28 MB, 시간: 0.02 ms
+메모리: 3.93 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 06월 02일 03:04:33
+2026년 05월 08일 12:44:38
 
 ### 문제 설명
 
